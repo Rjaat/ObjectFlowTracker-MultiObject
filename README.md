@@ -23,8 +23,8 @@ This Docker image contains an object detection application built using **Python 
 clone the repository, install the dependencies, and run the application locally.
 1. Clone the Repository:
    ```
-   git clone https://github.com/411049/object-flow-tracker-app.git
-   cd object-flow-tracker-app
+   git clone https://github.com/Rjaat/ObjectFlowTracker-MultiObject.git
+   cd ObjectFlowTracker-MultiObject
 
    ```
 2. Install the Required Python Packages:
@@ -103,6 +103,5 @@ CMD ["streamlit", "run", "streamlit_app.py"]
 
 ## Notes
 
--   This application uses YOLO for object detection.
--   Ensure that the system’s camera is connected and accessible.
--   The Streamlit interface provides an easy-to-use way to visualize the object detection results.
+- Camera Requirement: Ensure the system’s camera is connected and accessible.
+- Streamlit Interface: Provides an easy-to-use interface for visualizing detection results.
