@@ -33,7 +33,7 @@ clone the repository, install the dependencies, and run the application locally.
    ```
 3. Run the Application:
    ```
-   streamlit run APP.py
+   streamlit run streamlit_app.py
    ```
 4. Access the Application: Open your browser and navigate to:
    ```
